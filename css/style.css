@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 200px;
+    display: flex;
+}
+header img{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.background{
+    background-image: url(../assets/img/imagemgrande.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background h1{
+    color: white;
+    font-weight: 800;
+}
+.background h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #923129;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+}
+.background h3{
+    font-size: 1.1em;
+    color: white;
+    font-weight: 100;
+}
+.atendimentos{
+    margin-top: -2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.atendimentos ul{
+    display: flex;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5%;
+    background-color: #923129;
+    border-radius: 15px;
+}
+.atendimentos ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+.fa-solid{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: -25px;
+    color: white;
+}
+.atendimentos h2{
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.atendimentos p{
+    font-size: 16px;
+    padding: 5px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.service-container{
+    display: flex;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+}
+h2{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.direitos{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #666;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.direitos img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 15px;
+}
+.direitos h3{
+    font-size: 20px;
+    background-color: #1e2226;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 170px;
+    max-width: 250px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.direitos p{
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+.img{
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+}
+.conheca{
+    display: flex;
+}
