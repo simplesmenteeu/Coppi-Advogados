@@ -141,4 +141,33 @@ h2{
 }
 .conheca{
     display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+.whatsapp-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texto{
+    flex-direction: column;
+}
+.texto h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+}
+.texto p {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    font-size: 20px;
 }
